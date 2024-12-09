@@ -1,0 +1,1074 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(243, 242, 242);
+}
+
+.nav {
+    display: flex;
+    background-color: #48afff;
+    width: 100vw;
+    align-items: center;
+    height: 4rem;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px 400px 10px 10px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+.input {
+    position: relative;
+
+}
+
+.input img {
+    top: 9px;
+    height: 1.3rem;
+    right: 13px;
+    position: absolute;
+}
+
+.bar img {
+    height: 2px;
+}
+
+
+.logo img {
+    height: 1.7rem;
+    margin-left: 2rem;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    /* position: relative; */
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    padding-left: 12px;
+
+
+}
+
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 20vw;
+    padding-right: 12px;
+}
+
+.button1 {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: transparent;
+    background-color: white;
+    color: #48afff;
+
+
+}
+
+.button2 {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: #48afff;
+    color: white;
+}
+
+
+p {
+    font-size: 11px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+
+.itemsection {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.item:hover {
+    background-color: rgb(243, 242, 242);
+    border-bottom: 3px solid #48afff;
+    cursor: pointer;
+}
+
+
+.item {
+    padding: 1rem;
+    width: 6rem;
+
+}
+
+.item img {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+.banner1 img {
+    width: 100vw;
+    height:fit-content;
+    margin-top: 1rem;
+}
+
+
+
+h2 {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bannersection {
+    background-image: url(https://static.priceoye.pk/images/categories/section-earbuds-bg-md.png);
+    height: 16rem;
+    margin-top: 2rem;
+    width: 100vw;
+
+
+}
+
+.first {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.first button {
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    border-color: transparent;
+    background-color: rgb(238, 231, 231);
+    color: black;
+
+
+}
+
+.collection {
+    display: flex;
+}
+
+/* -------------- ---------FIRST SECTION-------------------------  */
+
+.packagesec {
+    gap: 18px;
+    flex-wrap: wrap;
+    width: 80vw;
+    /* height: 75vh;  */
+    margin: auto;
+    display: flex;
+
+
+}
+
+.prow1 {
+    gap: 18px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.prow2 {
+    gap: 18px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+
+
+}
+
+
+
+
+
+.row1 {
+    background-color: rgb(255, 255, 255);
+    /* height: 35vh; */
+    padding: 1rem;
+    width: 19vw;
+    border-radius: 3px;
+
+}
+
+.row2 {
+    background-color: rgb(255, 255, 255);
+    /* height: 35vh; */
+    padding: 1rem;
+    width: 19vw;
+    border-radius: 3px;
+
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    height: 35vh;
+    width: 19vw;
+    border-radius: 3px;
+
+}
+
+.up {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+
+.box img {
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    height: 15vh;
+    width: 9vw;
+    padding-bottom: 1rem;
+}
+
+.box div {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.row1 img {
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    height: 5rem;
+    width: 5rem;    
+    padding-bottom: 1rem;
+}
+
+.row1 div {
+    font-size: 14px;
+    font-weight: 500;
+    /* padding-left: 1rem;  */
+}
+
+.row2 img {
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    padding-bottom: 1rem;
+}
+
+.row2 div {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+strong {
+    font-size: 18px;
+}
+
+.rate {
+    vertical-align: baseline;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 1rem;
+
+
+}
+
+.upper {
+
+    text-decoration: line-through;
+    text-decoration-color: red;
+
+}
+
+.diff-rate {
+    vertical-align: baseline;
+    color: rgb(194, 193, 193);
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+
+}
+
+.packagesec1 .diff-rate {
+    vertical-align: baseline;
+    color: rgb(194, 193, 193);
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+
+.down {
+    background-color: #f0faf7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #0bb07e;
+    padding: 7px;
+}
+
+.down div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* padding-left: 0rem; */
+}
+
+
+
+/* -------------- ---------SECOND SECTION------------------------- -- */
+
+
+.recommended {
+
+    width: 100vw;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.recommended p {
+
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+
+}
+
+.recommended span {
+
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(61, 60, 60);
+}
+
+.packagesec1 {
+    margin: auto;
+    width: 80vw;
+    /* height: 80vh; */
+
+
+}
+
+.vediocontainer {
+
+    gap: 14px;
+    display: flex;
+    height: 100%;
+    width: 80vw;
+    gap: 14px;
+    display: flex;
+}
+
+
+video {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.box1 {
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    /* height: 73vh; */
+    width: 15vw;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 1rem;
+
+
+
+}
+
+.box1 img {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    height: 5rem;
+    width: 7vw;
+    left: 3rem;
+    bottom: 10rem;
+    box-shadow: 0px 0px 8px black;
+
+}
+
+
+.box1 .diff-rate {
+    padding-left: 1rem;
+    margin-top: 0.4rem;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+.box1 .rate {
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.box1 .down {
+
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/* -------------- ---------THIRD SECTION------------------------- -- */
+
+.recommended {
+
+    width: 100vw;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.recommended p {
+
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+
+}
+
+.recommended span {
+
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(61, 60, 60);
+}
+
+
+.packagesec2 {
+    width: 80vw;
+    /* height: 80vh;  */
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+}
+
+.leftsection {
+    width: 40vw;
+    background-color: white;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+
+/* .leftbox{
+    height:100%;
+    width:100%;
+} */
+.leftsection img {
+    height: 290px;
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+.leftsection p {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.packagerate {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+.lower {
+    background-color: #f0faf7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #0bb07e;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightsection {
+    width: 60vw;
+    /* border: 1px solid; */
+
+}
+
+
+.parentrow1 {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.parentrow2 {
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+
+
+.box2 {
+    background-color: white;
+    width: 23vw;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+.box2 img {
+
+    height: 100px;
+    width: 120px;
+}
+
+.flex {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+
+}
+
+.flex div {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.rightsection .diff-rate {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+
+.bannersection1 {
+
+    background-image: url(https://static.priceoye.pk/images/categories/section-smart-watches-bg-md.png);
+    height: 16rem;
+    margin-top: 2rem;
+    width: 100vw;
+
+
+}
+
+.bannersection2 {
+
+    background-image: url(https://static.priceoye.pk/images/categories/section-mobiles-bg-md.png);
+    height: 16rem;
+    margin-top: 2rem;
+    width: 100vw;
+
+
+}
+
+.div {
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+.div div {
+    background: #FFF348;
+    padding: 15px 47px;
+    font-weight: 500;
+    font-size: 13px;
+    width: 10vw;
+    border-radius: 9px;
+    text-align: center;
+
+}
+
+/* .div div:hover{
+        cursor: pointer;
+        background-color: #48afff;
+        transition: 1s;
+        height: 100%;
+        padding: 15px 47px;
+        font-weight: 500;
+        font-size: 13px;
+        width: 10vw;
+        border-radius: 9px;
+        text-align: center;
+
+    } */
+
+
+.container {
+    width: 80vw;
+    margin: auto;
+
+
+}
+
+.seccontainer {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    gap: 2rem;
+    justify-content: center;
+
+
+}
+
+.sec p {
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.container img {
+    height: 4rem;
+
+
+}
+
+.customerimages {
+
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    gap: 0.5rem;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
+}
+
+.customer-reviews {
+    width: 80vw;
+    margin: auto;
+
+}
+
+.customer-reviews img {
+    height: 6rem;
+    width: 9rem;
+    border-radius: 4px;
+}
+
+.reviewsection {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.reviewcontainer {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.rbox {
+    width: 100%;
+    border: 1px solid rgb(156, 155, 155);
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+.fl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    margin: auto;
+
+
+}
+
+.reviewsection span {
+    font-size: 12px;
+    color: grey;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 1rem;
+
+}
+
+.verified {
+    display: flex;
+    font-weight: 600;
+    color: #0bb07e;
+    align-items: center;
+    font-size: 13px;
+}
+
+.verified img {
+    height: 1.5rem;
+    width: 1.5rem;
+
+}
+
+.profile img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.starfont {
+    font-size: 10px;
+    color: grey
+}
+
+.starname {
+    color: rgb(0, 153, 255);
+    font-size: 11px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.reason-row1 {
+    width: 80vw;
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+
+}
+
+.reason-row2 {
+    width: 80vw;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin: auto;
+
+}
+
+
+.reasons img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.rea-box {
+    display: flex;
+    background: radial-gradient(25.65% 62.25% at 27.62% 50.2%, #48afff 21.57%, #0078d5 100%);
+    width: 48%;
+    border-radius: 7px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 11rem;
+}
+
+.h1 {
+    width: 40%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rea-box button {
+    margin-top: 1rem;
+    background: #fba338;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.bannersection3 {
+
+    background-image: url(https://static.priceoye.pk/images/categories/section-trimmers-shaver-bg-md.png);
+    height: 16rem;
+    margin-top: 4rem;
+    width: 100vw;
+
+
+}
+
+.banner1 img {
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+
+.policy {
+    height: 13rem;
+    width: 100vw;
+    background-color: white;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pbox {
+    text-align: center;
+    font-size: 13px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+}
+
+.pbox div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: grey;
+}
+
+.pbox img {
+    height: 4rem;
+}
+
+
+.footer {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 100vw;
+    background-color: #48afff;
+    color: #fff;
+}
+
+.firstline {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    align-items: center;
+
+
+}
+
+.firstline img {
+    width: 8.5rem;
+
+}
+
+.fright img {
+    width: 17rem;
+}
+
+.fright .image {
+    width: 10rem;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.set {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    font-size: 13px;
+
+
+
+}
+
+.colorfooter {
+    background-color: #3eabff;
+    width: 100vw;
+}
+
+.low-footer {
+    padding-top: 2rem;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin: auto;
+
+
+}
+
+.low-footer img {
+    width: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+
+.h1 div {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+/* ----hovers---- */
+
+button:hover {
+    cursor: pointer;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box1 img:hover {
+    cursor: pointer;
+
+}
+
+.box img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+
+}
+
+.box1 img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+
+}
+
+.sec img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+
+}
+
+.policy img:hover {
+    cursor: pointer;
+}
+
+.footer img:hover {
+    cursor: pointer;
+}
+
+.rbox:hover {
+    cursor: pointer;
+}
+
+.name {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 15px;
+}
+
+
+.customer-reviews img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+/* .leftsection img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+} */
+
+.box2 img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
